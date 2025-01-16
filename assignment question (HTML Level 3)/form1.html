@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/action">
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name">
+        <div>
+            <span> Sex :</span>
+            <input type="radio" id="sex" value="M" name="sex"> <label for="sex"> Male</label>
+            <input type="radio" id="sexF" value="M" name="sex"> <label for="sexF"> Female</label>
+        </div>
+        <div>
+            <label for="County">County:</label>
+            <select name="country" id="County">
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+            </select>
+        </div>
+        <p> Message:</p>
+        <textarea name="feedback" id="feedback" placeholder="your feedback please!" rows="4" cols="25"></textarea> <br>
+        <input type="checkbox" name="Subscribe?" id="sub"> <label for="sub"> Subscribe?</label>
+        <br><br>
+        <button>Submit</button>
+        http://127.0.0.1:5500/action?name=Md.+Kashem+Khondaker&sex=M&country=Bangladesh&feedback=alskdjfadj&Subscribe%3F=on
+    </form>
+</body>
+</html>
