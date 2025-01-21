@@ -1,0 +1,20 @@
+div {
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    /* border: 1px solid rgb(78, 25, 25); */
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-right: 3px solid;
+    border-radius: 20px;
+}
+h1 {
+    border-width: 1px;
+    border-style: dashed;
+    border-color: gray ;
+    /* border-top-width: 5px;
+    border-top-style: dashed;
+    border-top-color: blue; */
+    border-top: 3px dashed blue;
+}

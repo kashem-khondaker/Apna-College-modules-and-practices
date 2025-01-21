@@ -1,0 +1,33 @@
+.parent {
+    height: 200px;
+    width: 60px;
+    border: 4px solid black;
+    background-color: gray;
+    margin-left:200px ;
+    padding: 20px;
+    margin: auto;
+}
+.child1 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    margin:auto ;
+    margin-top: 10px;
+}
+.child2 {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin:auto ;
+    margin-top: 10px;
+}
+.child3 {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+    margin:auto ;
+    margin-top: 10px;
+}
