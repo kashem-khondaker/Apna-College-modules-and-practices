@@ -1,0 +1,124 @@
+/* Navbar Design */
+nav {
+    background: #ff914d;
+    padding: 12px 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-menu li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+  
+  .nav-menu li:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Search Box */
+  form {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form input {
+    border: none;
+    outline: none;
+    padding: 6px;
+    width: 120px;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  form label i {
+    color: #ff914d;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('https://source.unsplash.com/1600x900/?pet,dog,cat') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+  }
+  
+  /* Overlay Effect */
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark Overlay */
+  }
+  
+  /* Hero Content */
+  .hero-content {
+    position: relative;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 42px;
+    font-weight: bold;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* CTA Button */
+  .cta-button {
+    background: #ff914d;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #ff6a00;
+  }
+  
