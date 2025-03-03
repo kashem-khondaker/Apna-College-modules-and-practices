@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1em 0;
+        text-align: center;
+      }
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: #444;
+      }
+      nav a {
+        color: #fff;
+        padding: 1em;
+        text-decoration: none;
+      }
+      nav a:hover {
+        background-color: #555;
+      }
+      main {
+        padding: 2em;
+      }
+      .card {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin: 1em;
+        padding: 1em;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+    <main>
+      <div class="card">
+        <h2>Card Title</h2>
+        <p>
+          This is a card. You can use it to highlight important information.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Card Title</h2>
+        <p>
+          This is another card. You can add more cards to create a grid layout.
+        </p>
+      </div>
+    </main>
+    <!-- Add this before the closing </body> tag -->
+    <script>
+      document.querySelector("button").addEventListener("click", function () {
+        alert("Button clicked!");
+      });
+    </script>
+  </body>
+</html>
